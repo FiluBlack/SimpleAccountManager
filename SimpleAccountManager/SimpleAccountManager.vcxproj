@@ -143,11 +143,13 @@
     <ClCompile Include="Login.cpp" />
     <ClCompile Include="Signup.cpp" />
     <ClCompile Include="SimpleAccountManager.cpp" />
+    <ClCompile Include="Startmenu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Account.h" />
     <ClInclude Include="Login.h" />
     <ClInclude Include="Signup.h" />
+    <ClInclude Include="Startmenu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
