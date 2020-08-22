@@ -1,12 +1,16 @@
 #include "Startmenu.h"
 #include<iostream>
 
-void Startmenu::login()
+Account Startmenu::accountLogin()
 {
+	Login login;
+	login.account;
 }
 
-void Startmenu::signup()
+Account Startmenu::accountSignup()
 {
+	Signup signup;
+	signup.account;
 }
 
 Startmenu::Startmenu()
@@ -29,10 +33,10 @@ void Startmenu::chooseOptions()
 	switch (choice)
 	{
 	case LOGIN:
-		login();
+		accountLogin();
 		break;
 	case SIGNUP:
-		signup();
+		accountSignup();
 		break;
 	default:
 		std::cout << "No such option!" << std::endl;

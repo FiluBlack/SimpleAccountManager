@@ -1,11 +1,15 @@
 #pragma once
+#include "Account.h"
+#include "Login.h"
+#include "Signup.h"
+
 class Startmenu
 {
 private:
 	enum Options { LOGIN=1,SIGNUP };
 
-	void login();
-	void signup();
+	Account accountLogin();
+	Account accountSignup();
 public:
 	// Constructor/Destructor
 	Startmenu();
