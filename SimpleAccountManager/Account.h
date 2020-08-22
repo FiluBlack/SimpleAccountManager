@@ -1,10 +1,10 @@
 #pragma once
 
 #include "AccountList.h"
-#include "UserID.h"
-#include "Username.h"
 #include "Email.h"
 #include "Password.h"
+#include "UserID.h"
+#include "Username.h"
 class Account
 {
 private:

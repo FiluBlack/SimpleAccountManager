@@ -13,21 +13,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Quelldateien\Accounts">
+      <UniqueIdentifier>{6e426074-a09a-4663-93a6-0ec701d0adcc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SimpleAccountManager.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="Account.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="Login.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="Signup.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="Startmenu.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Admin.cpp">
+      <Filter>Quelldateien\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="Account.cpp">
+      <Filter>Quelldateien\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="UserID.cpp">
+      <Filter>Quelldateien\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountList.cpp">
+      <Filter>Quelldateien\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="Email.cpp">
+      <Filter>Quelldateien\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="Password.cpp">
+      <Filter>Quelldateien\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="Username.cpp">
+      <Filter>Quelldateien\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
@@ -42,6 +63,24 @@
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="Startmenu.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Admin.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountList.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="UserID.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Email.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Username.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Password.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

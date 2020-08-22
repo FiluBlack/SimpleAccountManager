@@ -140,16 +140,28 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Account.cpp" />
+    <ClCompile Include="AccountList.cpp" />
+    <ClCompile Include="Admin.cpp" />
+    <ClCompile Include="Email.cpp" />
     <ClCompile Include="Login.cpp" />
+    <ClCompile Include="Password.cpp" />
     <ClCompile Include="Signup.cpp" />
     <ClCompile Include="SimpleAccountManager.cpp" />
     <ClCompile Include="Startmenu.cpp" />
+    <ClCompile Include="UserID.cpp" />
+    <ClCompile Include="Username.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Account.h" />
+    <ClInclude Include="AccountList.h" />
+    <ClInclude Include="Admin.h" />
+    <ClInclude Include="Email.h" />
     <ClInclude Include="Login.h" />
+    <ClInclude Include="Password.h" />
     <ClInclude Include="Signup.h" />
     <ClInclude Include="Startmenu.h" />
+    <ClInclude Include="UserID.h" />
+    <ClInclude Include="Username.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
