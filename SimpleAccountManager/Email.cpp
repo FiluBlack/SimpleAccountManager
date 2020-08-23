@@ -9,19 +9,19 @@ Email::~Email()
 {
 }
 
-bool Email::exist(Email email)
+bool Email::exist(char email)
 {
 	return false;
 }
 
-bool Email::isValid(Email email)
+bool Email::isValid(char email)
 {
 	return true;
 }
 
 Email& Email::operator=(const char &assignedEmail)
 {
-	if (!exist && isValid)
+	if (!exist(assignedEmail) && isValid(assignedEmail))
 	{
 		email = assignedEmail;
 		return *this;

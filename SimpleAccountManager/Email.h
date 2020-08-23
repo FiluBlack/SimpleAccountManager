@@ -8,8 +8,8 @@ public:
 	Email(char emailChar);
 	~Email();
 
-	static bool exist(Email email);
-	static bool isValid(Email email);
+	static bool exist(char email);
+	static bool isValid(char email);
 
 	Email& operator=(const char& assignedEmail);
 };
